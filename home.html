@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lian</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel='stylesheet' href='plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/jquery.fancybox.min.css' type='text/css' media='all' />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="top_container">
+				<div class="logo_head">
+					<img src="images/logo.png">
+				</div>
+				<div class="right_head">
+					<div class="menu_head">
+						<div class="menu_line"><hr color='#000'></div>
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Portfolio</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											BLOG
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="#">Another action</a>
+											<a class="dropdown-item" href="#">Something else here</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div class="search_head"><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="content_wrap">
+		<div class="home_slider">
+			<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
+                    <ul>
+                        <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/shutterstock_353200073.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="images/shutterstock_353200073.png" alt="" title="slider-1-2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        	<div class="tp-caption tp-resizeme largewhitebg"
+                                 data-frames='[{"delay": 500, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"}, 
+                                               {"delay": "wait", "speed": 300, "to": "opacity: 0"}]' 
+                                 data-x="center" 
+                                 data-y="center" 
+                                 data-hoffset="0" 
+                                 data-voffset="0" 
+                                 data-width="['auto']"
+                                 data-height="['auto']"
+                             
+                            >Lian Creative Agency</div>
+                            <div class="tp-caption tp-resizeme medium_text"
+							     data-frames='[{"delay": 500, "speed": 300, "from": "opacity: 0", "to": "opacity: 1"}, 
+							                   {"delay": "wait", "speed": 300, "to": "opacity: 0"}]' 
+							     data-x="center" 
+							     data-y="center" 
+							     data-hoffset="0" 
+							     data-voffset="70" 
+							     data-width="['auto']"
+							     data-height="['auto']"
+							 
+							>Minimal Freelance Portfolio</div>
+                        </li>
+                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/shutterstock_433009291.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="images/shutterstock_433009291.png" alt="" title="slider-2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        </li>
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+            </div>
+		</div>
+        <div class="content-container container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <!-- container -->
+                <div class="wrapper">
+                    <!-- Заголовок -->
+                    <!-- Контейнер с адаптиными блоками -->
+                <div class="masonry">
+                    <!-- Адаптивные блоки с содержанием -->
+                   <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/01/dbmast2.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/01/dbmast2.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div> 
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/02/vide-theme6.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/02/vide-theme6.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/05/planer-preview.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/05/planer-preview.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://s7.hostingkartinok.com/uploads/images/2014/08/54dcea5a0ea58b710a279fbb93676e17.jpg">
+                        <img src="http://s7.hostingkartinok.com/uploads/images/2014/08/54dcea5a0ea58b710a279fbb93676e17.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/03/themeforest2.gif">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/03/themeforest2.gif">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2013/11/3d2.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2013/11/3d2.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/03/button-css-3d.png">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/03/button-css-3d.png">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2014/01/toogle-box2.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2014/01/toogle-box2.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://s7.hostingkartinok.com/uploads/images/2014/08/0c40846fbba99130588d1d0ec651ebcf.jpg">
+                        <img src="http://s7.hostingkartinok.com/uploads/images/2014/08/0c40846fbba99130588d1d0ec651ebcf.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    <div class="item">
+                       <a data-fancybox="gallery" class="fancybox" href="http://dbmast.ru/wp-content/uploads/2012/09/css-modal-wind.jpg">
+                        <img src="http://dbmast.ru/wp-content/uploads/2012/09/css-modal-wind.jpg">
+                        <div class="trans_color"></div>
+                       </a>
+                    </div>
+                    
+                    <!-- Конец адаптивных блоков с содержанием -->       
+                </div>
+                    <!-- Конец контейнера с адаптиными блоками -->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+            </div>
+            <div class="button_container">
+              <button class="button">Load More</button>
+            </div>
+        </div>
+	</div>
+  <footer>
+    <div class="footer_logo">
+      <img src="images/logo.png">
+    </div>
+    <div class="footer_icons">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="15" height="15" viewBox="0 0 430.113 430.114" style="enable-background:new 0 0 430.113 430.114;"
+   xml:space="preserve">
+        <g>
+          <path style="fill:#777777;" id="Facebook" d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+            c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+            c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+        </g>
+      </svg>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="15" height="15" viewBox="0 0 604.35 604.35" style="enable-background:new 0 0 604.35 604.35;"
+   xml:space="preserve">
+        <g>
+          <g id="google-plus">
+            <path style="fill:#777777;" d="M516.375,255v-76.5h-51V255h-76.5v51h76.5v76.5h51V306h76.5v-51H516.375z M320.025,341.7l-28.051-20.4
+              c-10.2-7.649-20.399-17.85-20.399-35.7s12.75-33.15,25.5-40.8c33.15-25.5,66.3-53.55,66.3-109.65c0-53.55-33.15-84.15-51-99.45
+              h43.35l30.6-35.7h-158.1c-112.2,0-168.3,71.4-168.3,147.9c0,58.65,45.9,122.4,127.5,122.4h20.4c-2.55,7.65-10.2,20.4-10.2,33.15
+              c0,25.5,10.2,35.7,22.95,51c-35.7,2.55-102,10.2-150.45,40.8c-45.9,28.05-58.65,66.3-58.65,94.35
+              c0,58.65,53.55,114.75,168.3,114.75c137.7,0,204.001-76.5,204.001-150.449C383.775,400.35,355.725,372.3,320.025,341.7z
+               M126.225,109.65c0-56.1,33.15-81.6,68.85-81.6c66.3,0,102,89.25,102,140.25c0,66.3-53.55,79.05-73.95,79.05
+              C159.375,247.35,126.225,168.3,126.225,109.65z M218.024,568.65c-84.15,0-137.7-38.25-137.7-94.351c0-56.1,51-73.95,66.3-81.6
+              c33.15-10.2,76.5-12.75,84.15-12.75s12.75,0,17.85,0c61.2,43.35,86.7,61.2,86.7,102C335.324,530.4,286.875,568.65,218.024,568.65z
+              "/>
+          </g>
+        </g>
+      </svg>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="15" height="15" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+        <g id="XMLID_801_">
+          <path style="fill:#777777;" id="XMLID_802_" d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
+            C77.16,101.969,74.922,99.73,72.16,99.73z"/>
+          <path style="fill:#777777;" id="XMLID_803_" d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4
+            c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"/>
+          <path style="fill:#777777;" id="XMLID_804_" d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599
+            c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319
+            c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995
+            C310,145.43,300.549,94.761,230.454,94.761z"/>
+        </g>
+      </svg>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="15" height="15" viewBox="0 0 100.001 100.001" style="enable-background:new 0 0 100.001 100.001;" xml:space="preserve">
+        <g>
+          <path style="fill:#777777;" d="M43.081,66.14c-2.626,13.767-5.833,26.966-15.333,33.861c-2.932-20.809,4.307-36.436,7.668-53.027
+            c-5.73-9.646,0.689-29.062,12.777-24.277c14.873,5.885-12.881,35.865,5.75,39.611c19.453,3.908,27.395-33.752,15.332-46
+            C51.847-1.376,18.542,15.905,22.638,41.224c0.996,6.191,7.391,8.068,2.555,16.611c-11.154-2.473-14.484-11.27-14.055-23
+            c0.69-19.197,17.25-32.639,33.86-34.498c21.006-2.352,40.721,7.711,43.443,27.471c3.066,22.303-9.48,46.459-31.943,44.721
+            C50.41,72.056,47.853,69.04,43.081,66.14z"/>
+        </g>
+      </svg>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="15" height="15" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+        <g>
+          <g>
+            <path style="fill:#777777;" d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+              c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+              c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+              c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+              c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+              c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+              c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="footer_text">
+      © 2016 <a href="#">Mulitix Theme</a> by ThemeForces. All Rights Reserved.
+    </div>
+  </footer>
+	<script src="js/jquery-3.4.0.min.js"></script>
+  <script src="js/script.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        function setREVStartSize(e) {
+            try {
+                e.c = jQuery(e.c);
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        }; /*]]>*/
+    </script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        function revslider_showDoubleJqueryError(sliderID) {
+            var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+            errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+            errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+            errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+            errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+            jQuery(sliderID).show().html(errorMessage);
+        } /*]]>*/
+    </script>
+    <script>
+        /*<![CDATA[*/
+        var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+        var htmlDivCss = "";
+        if (htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        } else {
+            var htmlDiv = document.createElement("div");
+            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+        } /*]]>*/
+    </script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        if (setREVStartSize !== undefined) setREVStartSize({
+            c: '#rev_slider_1_1',
+            gridwidth: [1380],
+            gridheight: [650],
+            sliderLayout: 'auto'
+        });
+        var revapi1, tpj;
+        (function() {
+            if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+            else onLoad();
+
+            function onLoad() {
+                if (tpj === undefined) {
+                    tpj = jQuery;
+                    if ("off" == "on") tpj.noConflict();
+                }
+                if (tpj("#rev_slider_1_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_1_1");
+                } else {
+                    revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                        sliderType: "standard",
+                        jsFileLocation: "//demo.goodlayers.com/kingster/wp-content/plugins/revslider/public/assets/js/",
+                        sliderLayout: "auto",
+                        dottedOverlay: "none",
+                        delay: 5000,
+                        navigation: {
+                            keyboardNavigation: "off",
+                            keyboard_direction: "horizontal",
+                            mouseScrollNavigation: "off",
+                            mouseScrollReverse: "default",
+                            onHoverStop: "off",
+                            touch: {
+                                touchenabled: "on",
+                                touchOnDesktop: "off",
+                                swipe_threshold: 75,
+                                swipe_min_touches: 1,
+                                swipe_direction: "horizontal",
+                                drag_block_vertical: false
+                            },
+                            arrows: {
+                                style: "gyges",
+                                enable: true,
+                                hide_onmobile: true,
+                                hide_under: 767,
+                                hide_onleave: false,
+                                //hide_delay: 200,
+                                //hide_delay_mobile: 1200,
+                                //tmp: '',
+                                left: {
+                                    h_align: "left",
+                                    v_align: "center",
+                                    h_offset: 20,
+                                    v_offset: 0
+                                },
+                                right: {
+                                    h_align: "right",
+                                    v_align: "center",
+                                    h_offset: 20,
+                                    v_offset: 0
+                                }
+                            },
+                            bullets: {
+                                enable: true,
+                                hide_onmobile: false,
+                                hide_over: 1499,
+                                style: "hephaistos",
+                                hide_onleave: true,
+                                hide_delay: 200,
+                                hide_delay_mobile: 1200,
+                                direction: "horizontal",
+                                h_align: "center",
+                                v_align: "bottom",
+                                h_offset: 0,
+                                v_offset: 30,
+                                space: 7,
+                                /*tmp: '<span class="tp-bullet-inner"></span>'*/
+                            }
+                        },
+                        visibilityLevels: [1240, 1024, 778, 480],
+                        gridwidth: 1380,
+                        gridheight: 650,
+                        lazyType: "none",
+                        shadow: 0,
+                        spinner: "off",
+                        stopLoop: "off",
+                        stopAfterLoops: -1,
+                        stopAtSlide: -1,
+                        shuffle: "off",
+                        autoHeight: "off",
+                        disableProgressBar: "on",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            nextSlideOnWindowFocus: "off",
+                            disableFocusListener: false,
+                        }
+                    });
+                };
+            };
+        }()); /*]]>*/
+    </script>
+    <script>
+        /*<![CDATA[*/
+        var htmlDivCss = unescape("%23rev_slider_1_1%20.uranus.tparrows%20%7B%0A%20%20width%3A50px%3B%0A%20%20height%3A50px%3B%0A%20%20background%3Argba%28255%2C255%2C255%2C0%29%3B%0A%20%7D%0A%20%23rev_slider_1_1%20.uranus.tparrows%3Abefore%20%7B%0A%20width%3A50px%3B%0A%20height%3A50px%3B%0A%20line-height%3A50px%3B%0A%20font-size%3A40px%3B%0A%20transition%3Aall%200.3s%3B%0A-webkit-transition%3Aall%200.3s%3B%0A%20%7D%0A%20%0A%20%20%23rev_slider_1_1%20.uranus.tparrows%3Ahover%3Abefore%20%7B%0A%20%20%20%20opacity%3A0.75%3B%0A%20%20%7D%0A%23rev_slider_1_1%20.uranus%20.tp-bullet%7B%0A%20%20border-radius%3A%2050%25%3B%0A%20%20box-shadow%3A%200%200%200%202px%20rgba%28255%2C%20255%2C%20255%2C%200%29%3B%0A%20%20-webkit-transition%3A%20box-shadow%200.3s%20ease%3B%0A%20%20transition%3A%20box-shadow%200.3s%20ease%3B%0A%20%20background%3Atransparent%3B%0A%20%20width%3A15px%3B%0A%20%20height%3A15px%3B%0A%7D%0A%23rev_slider_1_1%20.uranus%20.tp-bullet.selected%2C%0A%23rev_slider_1_1%20.uranus%20.tp-bullet%3Ahover%20%7B%0A%20%20box-shadow%3A%200%200%200%202px%20rgba%28255%2C%20255%2C%20255%2C1%29%3B%0A%20%20border%3Anone%3B%0A%20%20border-radius%3A%2050%25%3B%0A%20%20background%3Atransparent%3B%0A%7D%0A%0A%23rev_slider_1_1%20.uranus%20.tp-bullet-inner%20%7B%0A%20%20-webkit-transition%3A%20background-color%200.3s%20ease%2C%20-webkit-transform%200.3s%20ease%3B%0A%20%20transition%3A%20background-color%200.3s%20ease%2C%20transform%200.3s%20ease%3B%0A%20%20top%3A%200%3B%0A%20%20left%3A%200%3B%0A%20%20width%3A%20100%25%3B%0A%20%20height%3A%20100%25%3B%0A%20%20outline%3A%20none%3B%0A%20%20border-radius%3A%2050%25%3B%0A%20%20background-color%3A%20rgb%28255%2C%20255%2C%20255%29%3B%0A%20%20background-color%3A%20rgba%28255%2C%20255%2C%20255%2C%200.3%29%3B%0A%20%20text-indent%3A%20-999em%3B%0A%20%20cursor%3A%20pointer%3B%0A%20%20position%3A%20absolute%3B%0A%7D%0A%0A%23rev_slider_1_1%20.uranus%20.tp-bullet.selected%20.tp-bullet-inner%2C%0A%23rev_slider_1_1%20.uranus%20.tp-bullet%3Ahover%20.tp-bullet-inner%7B%0A%20transform%3A%20scale%280.4%29%3B%0A%20-webkit-transform%3A%20scale%280.4%29%3B%0A%20background-color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%7D%0A");
+        var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+        if (htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        } else {
+            var htmlDiv = document.createElement('div');
+            htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+            document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+        } /*]]>*/
+    </script>
+    <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
